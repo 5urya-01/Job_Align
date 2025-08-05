@@ -1,0 +1,38 @@
+{
+  "name": "jobalign",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "cloudinary": "^1.41.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "form-data": "^4.0.3",
+    "lru-cache": "^11.1.0",
+    "mongoose": "^8.15.1",
+    "multer": "^2.0.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "node-cron": "^4.1.0",
+    "nodemailer": "^7.0.3",
+    "p-limit": "^6.2.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-parser": "^1.0.5",
+    "together-ai": "^0.16.0"
+  },
+  "devDependencies": {
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10"
+  }
+}
