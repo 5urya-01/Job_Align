@@ -19,7 +19,7 @@
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Initialize the Gemini API
-const genAI = new GoogleGenerativeAI("AIzaSyBlry9u8mKilbyOp0Pj3gDUIBAgwqmLSHc"); // 🔁 Replace with your actual API key
+const genAI = new GoogleGenerativeAI(""); // 🔁 Replace with your actual API key
 
 // Get response from Gemini 2.0 Flash model
 export const getBotResponse = async (userMessage) => {
